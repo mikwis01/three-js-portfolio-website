@@ -1,0 +1,15 @@
+.about_content{
+    height: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .about_content{
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,29 @@
+.tile{
+    padding: 1rem;
+    margin-top: 5rem; 
+}
+
+.tile p{
+    width: 60%;
+}
+
+.tile:hover{
+    background-color: #fbf9f2;
+}
+
+.tile_content{
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .tile{
+        padding-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .tile p{
+        width: 100%;
+    }
+
+}

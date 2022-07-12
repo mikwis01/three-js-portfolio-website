@@ -1,0 +1,21 @@
+nav{
+    height: 15%;
+    overflow: hidden;
+}
+
+nav h2{
+    margin: 2rem 0 0 2rem;
+}
+
+nav h2 a{
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav h2 a{
+        font-size: 1.25rem;
+    }
+
+}

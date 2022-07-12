@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  --text-color-light: #333;
+  --background-color-light: #FFFEF9;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:hover{
+  text-decoration: line-through;
+}
+
+.App{
+  color: var(--text-color-light);
+}
+
+.App .main_view,
+.App .works_view,
+.App .about_view{
+  background-color: var(--background-color-light);
+}

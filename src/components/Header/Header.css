@@ -1,0 +1,12 @@
+.main_header{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main_header{
+        font-size: 2.75rem;
+    }
+
+}

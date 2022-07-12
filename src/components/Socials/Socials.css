@@ -1,0 +1,23 @@
+.socials{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 10%;
+}
+
+
+.socials a{
+    margin: 0 2rem 2rem 0;
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .socials a{
+        font-size: 1.25rem;
+    }
+
+}

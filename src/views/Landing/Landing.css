@@ -1,0 +1,14 @@
+.main_view{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.canvas_wrapper{
+    height: inherit !important;
+    width: 100%;
+    position: absolute !important;
+    z-index: -1;
+}
