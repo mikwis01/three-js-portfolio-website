@@ -1,4 +1,4 @@
-My first portfolio website:
+First portfolio website:
   
 -react  
 -three.js  
